@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "estudo"
+version = "0.1.0"
+description = "Estudo do pacote do pygame"
+authors = ["Danielson Silva <danielson_fx@yahoo.com.br>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pygame = "^2.5.0"
+adventurelib = "^1.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
